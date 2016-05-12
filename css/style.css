@@ -19,7 +19,19 @@
 	padding: 0px 10px;
 	line-height: 50px;
 }
-
+.main-header{
+	height: 130px;
+	width: 100%;
+	background-color: #eaefe1;
+	text-align: center;
+}
+.main-header>div{
+	display: inline-block;
+	width: 27%;
+}
+.center-side{
+	font:3.2rem 'OleoScriptBold';
+}
 
 
 
