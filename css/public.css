@@ -17,7 +17,11 @@ th, td { /* table elements 表格元素 */
 }
 @font-face{
     font-family:'OleoScriptBold';
-    src:url('../fonts/oleoscript-bold.woff2');
+    src:url('../fonts/fontawesome-webfont.woff');
+}
+@font-face{
+    font-family:'kaiti123';
+    src:url('../fonts/kaiti.TTF');
 }
 /* 设置默认字体 */
 body,
@@ -39,8 +43,8 @@ small { font-size: 1.2rem; } /* 小于 12px 的中文很难阅读，让 small �
 ul, ol { list-style: none; }
 
 /* 重置文本格式元素 */
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { text-decoration: none; color: #80d024 }
+a:hover { text-decoration: none; color: #599806 }
 
 abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
     border-bottom: 1px dotted;
