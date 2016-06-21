@@ -24,12 +24,23 @@
 	width: 100%;
 	background-color: #eaefe1;
 	text-align: center;
-	display: none;
 }
 .main-header>div{
 	display: inline-block;
-	width: 27%;
+	width: 26.5%;
 	vertical-align: middle;
+}
+.right-side div{
+	line-height: 35px;
+	font-size: 2.4rem;
+	font-family: "kaiti";
+	text-align: left;
+}
+.right-side div:first-child{
+	padding-left: 20px;
+}
+.right-side div:last-child{
+	text-align: right;
 }
 .left-side{
 	text-align: center;
@@ -74,10 +85,15 @@
 	color: #fff;
 }
 .item-content{
-	background-color: #f1f1ef;
 	width: 80%;
-	padding: 0px 10%;
+	padding: 10px 10%;
 	font-size: 1.4rem;
+}
+.item-greyBack{
+	background-color: #f1f1ef;
+}
+.item-whiteBack{
+	background-color: #fff;
 }
 .item-title{
 	background-image: url("../icon/toRight.png");
@@ -119,4 +135,27 @@
 }
 .works-content .works-img{
 	max-width: 100%;
+}
+.article-content{
+	width:-moz-calc(30% - 42px);
+    width:-webkit-calc(30% - 42px);
+    width: calc(30% - 42px);
+	float: left;
+	height: 400px;
+	border-radius: 5px;
+	margin-right: 5%;
+	padding: 0px 20px;
+	text-align: justify;
+	overflow: hidden;
+	line-height: 26px;
+}
+.article-content:last-child{
+	margin-right: 0px;
+}
+.article-title{
+	font-size: 1.6rem;
+	display: block;
+	text-align: center;
+	text-indent: 0px;
+	line-height: 40px;
 }
