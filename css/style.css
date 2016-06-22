@@ -19,6 +19,9 @@
 	padding: 0px 10px;
 	line-height: 50px;
 }
+.list-row li a{
+	color: #e8e8e8;
+}
 .main-header{
 	height: 130px;
 	width: 100%;
@@ -158,4 +161,147 @@
 	text-align: center;
 	text-indent: 0px;
 	line-height: 40px;
+}
+.chatInfo-area{
+	width: 70%;
+	height: 570px;
+	background-color: #f1f1ef;
+	padding: 30px 15% 20px 15%;
+	border-bottom: 1px solid #ccc;
+}
+.chatInfo-header{
+	height: 30px;
+	width:-moz-calc(99% + 3px);
+    width:-webkit-calc(99% + 3px);
+    width: calc(99% + 3px);
+	line-height: 30px;
+	font-size: 1.6rem;
+	text-align: center;
+	background-color: #68a226;
+	color: #fff;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.chatFriends-content{
+	width: 20%;
+	height:-moz-calc(100% - 30px);
+    height:-webkit-calc(100% - 30px);
+    height: calc(100% - 30px);
+	float:left;
+	border: 1px solid #ccc;
+	border-top: 0px;
+}
+.chatInfo-content{
+	width: 79%;
+	height:-moz-calc(100% - 30px);
+    height:-webkit-calc(100% - 30px);
+    height: calc(100% - 30px);
+	float: left;
+	background-color: #fff;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.showInfo-area{
+	height:-moz-calc(60% - 10px);
+    height:-webkit-calc(60% - 10px);
+    height: calc(60% - 10px);
+	width: 100%;
+	padding-bottom: 10px;
+	overflow:hidden;
+	border-bottom: 1px solid #ccc;
+}
+.showInfo-content{
+	height: 100%;
+	width:-moz-calc(100% + 15px);
+    width:-webkit-calc(100% + 15px);
+    width: calc(100% + 15px);
+	overflow-y:scroll;
+}
+.sendInfo-bar{
+	height: 7%;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.sendInfo-content{
+	height:-moz-calc(33% - 3px);
+    height:-webkit-calc(33% - 3px);
+    height: calc(33% - 3px);
+}
+.massage-content{
+	padding: 5px 10px;
+}
+.massage-left{
+	text-align: left;
+}
+.massage-right{
+	text-align: right;
+}
+.massage-left .massage-info{
+	margin-left: 10px;
+}
+.massage-right .massage-info{
+	margin-right: 10px;
+}
+.massage-sender{
+
+}
+.sender-name{
+	font-size: 1.8rem;
+	display: inline-block;
+}
+.sender-time{
+	color:#cccccc;
+	margin-left: 20px;
+	display: inline-block;
+}
+.massage-info{
+	padding: 10px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 10px;
+	font-size: 1.6rem;
+	background-color: #b8cca1
+}
+.sendInfo-content textarea{
+	display: inline-block;
+	height:-moz-calc(100% - 20px);
+    height:-webkit-calc(100% - 20px);
+    height: calc(100% - 20px);
+	width:-moz-calc(100% - 20px);
+    width:-webkit-calc(100% - 20px);
+    width: calc(100% - 20px);
+    font-size: 1.4rem;
+    font-family: "kaiti";
+	outline: none;
+	border: 0px;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 10px;
+}
+.friend-item{
+	height: 40px;
+	padding: 10px;
+}
+.friend-item.active{
+	background-color: #dededc;
+}
+.friend-img{
+	max-width: 20%;
+	max-height: 100%;
+	vertical-align: middle;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.firend-name{
+	display: inline-block;
+	position: relative;
+	top:8px;
+	width:-moz-calc(80% - 14px);
+    width:-webkit-calc(80% - 14px);
+    width: calc(80% - 14px);
+	font-size: 1.6rem;
+	margin-left: 7px;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
 }
