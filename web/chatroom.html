@@ -7,7 +7,8 @@
 	<link rel="icon" href="../icon/favicon.ico">
 </head>
 <body>
-	<!--#include virtual="top.html"-->
+    <!--#include virtual="top.html"-->
+	<!--#include virtual="top-bar.html"-->
 	<section class="chatInfo-area clearfix">
 		<div class="chatInfo-header">user1</div>
 		<div class="chatFriends-content">
@@ -55,10 +56,9 @@
         // 添加一个连接监听器
         socket.on("message",function(data) { 
         	console.log("收到一条消息");
-            
         });
-
-        socket.on("guy_info",function(data) { 
+        
+        socket.on("guy_info",function(data) {
         	var newMsg = '';
             newMsg += '<div class="massage-left massage-content">';
             newMsg += '<div class="massage-sender">';

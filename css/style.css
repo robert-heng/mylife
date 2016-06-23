@@ -79,6 +79,9 @@
 	text-align: center;
 	cursor: pointer;
 }
+.nav-content a{
+	color: inherit;
+}
 .nav-content li:hover{
 	background-color: #68a226;
 	color: #fff;
@@ -304,4 +307,46 @@
 	white-space: nowrap;
 	text-overflow:ellipsis;
 	overflow: hidden;
+}
+.foot-area{
+	background-color: #1e1e1d;
+	color:#cdcece;
+	font-size: 1.4rem;
+	padding: 20px 10%;
+}
+.foot-area .foot-left{
+	line-height: 30px;
+	width: 65%;
+	display: inline-block;
+	text-align: center;
+}
+.foot-area .item-key{
+	width: 80px;
+	display: inline-block;
+	margin-right: 10px;
+	text-align: right;
+}
+.foot-area .item-value{
+	width: 200px;
+	display: inline-block;
+	text-align: left;
+}
+.foot-area .erweima{
+	width: 30%;
+	display: inline-block;
+}
+.foot-area .erweima label{
+	width: 33%;
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: 10%;
+	position: relative;
+	top:-10px;
+	line-height: 20px;
+}
+.foot-area .erweima img{
+	max-width: 50%;
+	height: 100px;
+	position: relative;
+	top:3px;
 }

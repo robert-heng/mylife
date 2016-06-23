@@ -1,0 +1,33 @@
+.article-ctn{
+	width: 80%;
+	padding: 20px 10%;
+	background-color: #f1f1ef;
+}
+.article-title{
+	font-size: 2.4rem;
+	font-weight: bolder;
+	color: #000;
+
+}
+.article-line{
+	border:1px solid #5ba236;
+	height: 1px;
+	background-color: #5ba236;
+	width: 90%;
+	margin: 10px auto 20px auto;
+	border-radius: 50%;
+}
+.article-author{
+	font-size: 1.4rem;
+	text-align: center;
+	color: #656565;
+	line-height: 30px;
+}
+.article-text{
+	color:#656565;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	text-indent: 30px;
+	text-align: justify;
+	line-height: 26px;
+}
