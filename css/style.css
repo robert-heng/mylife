@@ -101,7 +101,7 @@
 .item-whiteBack{
 	background-color: #fff;
 }
-.item-title{
+.item-content div.item-title{
 	background-image: url("../icon/toRight.png");
 	background-repeat: no-repeat;
 	background-size: 28px 28px;
@@ -111,7 +111,7 @@
 	padding: 10px 0px 10px 34px;
 	margin-left: -34px;
 }
-.item-text{
+.item-content div.item-text{
 	line-height: 25px;
 	text-indent: 28px;
 	padding-bottom: 10px;

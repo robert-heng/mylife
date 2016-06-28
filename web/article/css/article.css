@@ -31,3 +31,60 @@
 	text-align: justify;
 	line-height: 26px;
 }
+.mybody{
+	padding-top: 30px;
+}
+.list-nav-content{
+	width: 14%;
+	float: left;
+}
+.list-nav-content li.nav-item{
+	font-size: 1.6rem;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px;
+	margin:5px 0px 5px 0px;
+}
+.list-nav-content li.nav-item:hover{
+	background-color: #68a226;
+	color:#fff;
+}
+.list-nav-content li.nav-item.active{
+	background-color: #68a226;
+	color:#fff;
+}
+.list-title-content{
+	width: 86%;
+	float: left;
+}
+.list-title-content li.list-item{
+	list-style-image: url("/mylife/icon/diamond_small.png");
+	list-style-position: inside;
+	padding-left: 30px;
+	cursor: pointer;
+}
+.list-title-content div.item-title{
+	font-size: 1.6rem;
+	line-height: 25px;
+}
+.list-title-content div.item-text{
+	font-size: 1.2rem;
+	line-height: 25px;
+	text-indent: 30px;
+}
+.list-title-content div.item-text:hover{
+	color:#5e921a
+}
+.list-title-content div.item-date{
+	font-size: 1.2rem;
+	color: #928e8e;
+	padding-top: 5px;
+}
+.list-title-content li.list-line{
+	height: 1px;
+	background-color: #5ba236;
+	border:1px solid #5ba236;
+	border-radius: 50%;
+	margin:10px 0px 20px 30px;
+}

@@ -78,3 +78,7 @@ hr {
 .textL{text-align: left;}
 .textR{text-align: right;}
 .textC{text-align: center;}
+.mybody{
+    width: 80%;
+    padding: 10px 10% 10px 10%;
+}
